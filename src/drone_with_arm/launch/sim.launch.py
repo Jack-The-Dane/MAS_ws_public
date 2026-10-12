@@ -39,9 +39,9 @@ def generate_launch_description():
         output="screen",
     )
 
-    world_file = "/home/kristoffer/MAS_ws_public/src/drone_with_arm/worlds/optitrack.world"
+    world_file = "/home/ubuntu/MAS_ws_public/src/drone_with_arm/worlds/optitrack.world"
 
-    # Gazebo (classic)
+    # Gazebo (classic)https://github.com/RoLaSDU/MAS_ws_public.git
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(
