@@ -198,7 +198,7 @@
 
     <!-- Controller plugin for gimbal and arm -->
     <plugin name='gazebo_ros2_control' filename='libgazebo_ros2_control.so'>
-      <parameters>/home/kristoffer/MAS_ws_public/install/drone_with_arm/share/drone_with_arm/config/controllers.yaml</parameters>
+      <parameters>/home/ubuntu/MAS_ws_public/install/drone_with_arm/share/drone_with_arm/config/controllers.yaml</parameters>
     </plugin>
     
     <!-- Plugin for end effector pose publishing -->
